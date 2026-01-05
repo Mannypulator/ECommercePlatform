@@ -74,7 +74,7 @@ ECommercePlatform/
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mannypulator/ECommercePlatform.git
    cd ECommercePlatform
    ```
 
@@ -180,9 +180,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Project Maintainer - [@yourhandle](https://github.com/yourhandle)
+Project Maintainer - [@mannypulator](https://github.com/mannypulator)
 
-Project Link: [https://github.com/yourusername/ECommercePlatform](https://github.com/yourusername/ECommercePlatform)
+Project Link: [https://github.com/mannypulator/ECommercePlatform](https://github.com/mannypulator/ECommercePlatform)
 
 ## 🙏 Acknowledgments
 
