@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 // 1. Add Service Defaults (Aspire "Glue")
 // This ensures OpenTelemetry, HealthChecks, etc.
@@ -42,8 +41,6 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference();
-    app.UseSwagger();
-    app.UseSwaggerUI();
 
     using var scope = app.Services.CreateScope();
     var context = scope.ServiceProvider.GetRequiredService<CatalogDbContext>();

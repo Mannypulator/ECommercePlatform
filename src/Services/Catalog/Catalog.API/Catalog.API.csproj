@@ -17,7 +17,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Scalar.AspNetCore" />
-    <PackageReference Include="Swashbuckle.AspNetCore" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +28,10 @@
     <Folder Include="Features/" />
     <Folder Include="Features/Products/" />
     <Folder Include="Features/Products/CreateProduct/" />
+    <Folder Include="Features/Products/DeleteProduct/" />
+    <Folder Include="Features/Products/GetProductById/" />
+    <Folder Include="Features/Products/GetProducts/" />
+    <Folder Include="Features/Products/UpdateProduct/" />
     <Folder Include="Repository/" />
     <Folder Include="Models/" />
   </ItemGroup>
